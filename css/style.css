@@ -240,6 +240,10 @@ p {
 .aboutme .socialLinks .pic4:hover {
   content: url("images/colorimg/facebook.png");
 }
+
+.aboutme .socialLinks .pic4:hover {
+  content: url("images/colorimg/facebook.png");
+}
 /* ------------------ */
 .footer {
   /* margin-bottom: 5%; */
