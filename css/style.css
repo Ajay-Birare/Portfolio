@@ -229,21 +229,18 @@ p {
   transition: 1s;
 }
 .aboutme .socialLinks .pic1:hover {
-  content: url("images/colorimg/linkedin.png");
+  content: url("/Portfolio/images/colorimg/linkedin.png");
 }
 .aboutme .socialLinks .pic2:hover {
-  content: url("images/github.png");
+  content: url("/Portfolio/images/github.png");
 }
 .aboutme .socialLinks .pic3:hover {
-  content: url("images/colorimg/instagram.png");
+  content: url("/Portfolio/images/colorimg/instagram.png");
 }
 .aboutme .socialLinks .pic4:hover {
-  content: url("images/colorimg/facebook.png");
+  content: url("/Portfolio/images/colorimg/facebook.png");
 }
 
-.aboutme .socialLinks .pic4:hover {
-  content: url("images/colorimg/facebook.png");
-}
 /* ------------------ */
 .footer {
   /* margin-bottom: 5%; */
