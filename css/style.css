@@ -464,9 +464,10 @@ html {
   width: 20vw;
   /* padding: 5%; */
 }
-.projects .projectitems div:hover {
+.projects .projectitems .proj:hover {
   box-shadow: 1px 1px 5px rgb(20, 7, 7);
 }
+
 .projects .projectitems img {
   height: 40px;
 }
