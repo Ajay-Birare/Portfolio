@@ -229,16 +229,16 @@ p {
   transition: 1s;
 }
 .aboutme .socialLinks .pic1:hover {
-  content: url("/Portfolio/css/images/colorimg/linkedin.png");
+  content: url("/Portfolio/images/colorimg/linkedin.png");
 }
 .aboutme .socialLinks .pic2:hover {
-  content: url("/Portfolio/css/images/github.png");
+  content: url("/Portfolio/images/github.png");
 }
 .aboutme .socialLinks .pic3:hover {
-  content: url("/Portfolio/css/images/colorimg/instagram.png");
+  content: url("/Portfolio/images/colorimg/instagram.png");
 }
 .aboutme .socialLinks .pic4:hover {
-  content: url("/Portfolio/css/images/colorimg/facebook.png");
+  content: url("/Portfolio/images/colorimg/facebook.png");
 }
 
 /* ------------------ */
