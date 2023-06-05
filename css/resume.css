@@ -1,0 +1,124 @@
+/* for paragraphs  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+/* for headings  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+/* for heading  */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+/* for copyright */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+  --paraFont: "Open Sans", sans-serif;
+  --subHeading: "Open Sans", sans-serif;
+  --heading: "Ubuntu", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+
+.container {
+  background-color: white;
+  margin: 0% auto;
+  max-width: 50%;
+  /* border: 1px solid black; */
+  padding: 2%;
+}
+.header h2 {
+  letter-spacing: 0.3rem;
+  margin-bottom: 5%;
+  /* font-weight: 300; */
+  /* font-family: var(--heading); */
+  font-family: "popins", sans-serif;
+}
+.line {
+  border-bottom: 1px solid black;
+  padding-bottom: 2%;
+}
+
+.header a {
+  /* text-decoration: none; */
+  color: black;
+  font-family: var(--paraFont);
+  margin: 0 2% 0 0;
+}
+
+p {
+  font-family: var(--paraFont);
+  font-size: 1rem;
+}
+h2 {
+  font-family: var(--subHeading);
+  font-size: 1.2rem;
+}
+
+.header_items {
+  margin: 2% 0;
+}
+/* -------------------------------- */
+.skills {
+  display: flex;
+  gap: 25%;
+
+  margin: 5% 0;
+  /* padding-bottom: 2%; */
+}
+.skillset {
+  display: flex;
+  gap: 50%;
+  margin-left: 1%;
+}
+.skills h2 {
+  font-size: 1rem;
+  font-family: var(--subHeading);
+}
+.points {
+  font-size: 1rem;
+  font-family: var(--subHeading);
+}
+.skillsPoints {
+  /* margin: 0% 1% 0% 75%; */
+}
+.skillsPoints ul li {
+  margin-bottom: 10%;
+}
+/* -------------------------- */
+.education {
+  display: flex;
+  gap: 20%;
+  margin: 5% 0;
+}
+
+.educationYear p,
+.contact p {
+  font-weight: 300;
+}
+
+.years {
+  margin-bottom: 10%;
+}
+
+.hobbies {
+  display: flex;
+  gap: 23%;
+  margin: 10% 0%;
+  padding-bottom: 10%;
+}
+
+.contact {
+  display: flex;
+  gap: 20%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.details div {
+  margin-bottom: 10%;
+}

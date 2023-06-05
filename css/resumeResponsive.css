@@ -1,0 +1,22 @@
+/* 
+
+
+*/
+
+@media screen and (max-width: 770px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+  }
+  html {
+    font-size: 90%;
+  }
+  .skillset {
+    margin-left: 5%;
+  }
+}
