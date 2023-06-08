@@ -90,14 +90,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 95%;
+    width: 100%;
     margin: 2% auto;
     /* border: 1px solid black; */
-    position: relative;
+    position: absolute;
     text-align: center;
     border: none;
+    /* height: 20vh; */
+    padding-bottom: 30%;
   }
 
+  header {
+    margin-bottom: 10%;
+  }
   .right a {
     padding: 0 10px;
   }
@@ -159,10 +164,10 @@
     align-items: center;
     margin-bottom: 5%;
   }
-  .connection h2{
+  .connection h2 {
     font-size: 2rem;
   }
-  .connection p{
+  .connection p {
     font-size: 1.2rem;
     letter-spacing: 3px;
   }
