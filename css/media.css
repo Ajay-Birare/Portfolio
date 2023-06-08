@@ -286,6 +286,14 @@
   }
 
   /* till this  */
+
+  #see {
+    display: block;
+  }
+
+  #list {
+    display: none;
+  }
 }
 @media screen and (max-width: 330px) {
   #contacts {

@@ -546,3 +546,12 @@ h5,
 p {
   font-family: "Catamaran", sans-serif;
 }
+
+#see {
+  display: none;
+  border: none;
+  background-color: white;
+}
+#see img{
+  height: 40px;
+}
