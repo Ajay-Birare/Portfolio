@@ -61,12 +61,23 @@ function darkMode(){
   let bgbtn=document.getElementById("bgbtn");
 
   let light=document.getElementById("light");
-
-
+  let skill=document.getElementsByClassName("skillName");
+  let project=document.getElementsByClassName("projectName");
   if(body.style.backgroundColor==="white"){
     body.style.backgroundColor="#283845";
     body.style.color="white";
     nav.style.backgroundColor="#283845";
+    // skill.style.color="black";
+    for(let i=0;i<skill.length;i++)
+    {
+    skill[i].style.color="black";
+    }
+     for(let i=0;i<project.length;i++)
+    {
+        project[i].style.color="black";
+    }
+
+    
    light.src="images/lighton.png";
     // nav bar items color 
     for(let i=0;i<navlinks.length;i++)
@@ -86,7 +97,16 @@ function darkMode(){
     nav.style.backgroundColor="white";
     nav.style.color="black";
    light.src="images/lighoff.png";
+    // skill.style.color="black";
+ for(let i=0;i<5;i++)
+    {
+          skill[i].style.color="black";
 
+    }
+       for(let i=0;i<project.length;i++)
+    {
+        project[i].style.color="black";
+    }
     // navbar items color
   for(let i=0;i<navlinks.length;i++)
     {
