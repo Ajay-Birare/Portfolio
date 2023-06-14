@@ -103,6 +103,7 @@
   header {
     margin-bottom: 10%;
   }
+
   .right a {
     padding: 0 10px;
   }
@@ -289,6 +290,8 @@
 
   #see {
     display: block;
+    /* height: 2px; */
+    /* position: relative; */
   }
 
   #list {
