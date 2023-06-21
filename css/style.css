@@ -54,7 +54,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  /* width: 95%; */
   margin: 0% auto;
   position: fixed;
   height: 10vh;
@@ -62,6 +62,7 @@ a {
   left: 0;
   right: 0;
   background-color: white;
+  box-shadow: 1px 1px 7px rgb(125, 117, 117);
   /* background-color: rgb(198, 246, 246); */
   /* border-bottom: 1px solid black; */
 }
@@ -115,8 +116,9 @@ a {
 
   margin: 11% auto;
   display: flex;
+  /* flex-direction: row-reverse; */
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .about {
@@ -135,6 +137,8 @@ a {
   max-width: 100%;
   /* border: 2px solid black; */
   border-radius: 100%;
+  background-color: #1db655;
+  /* border-radius: 42% 58% 56% 44% / 17% 34% 66% 83%; */
 }
 .content a h2:hover {
   background-color: rgb(65, 232, 126);
@@ -552,6 +556,6 @@ p {
   border: none;
   background-color: white;
 }
-#see img{
+#see img {
   height: 40px;
 }
