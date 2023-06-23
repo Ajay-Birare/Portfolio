@@ -63,10 +63,15 @@ function darkMode(){
   let light=document.getElementById("light");
   let skill=document.getElementsByClassName("skillName");
   let project=document.getElementsByClassName("projectName");
+
+  // let line=document.getElementsByClassName("right");
+
   if(body.style.backgroundColor==="white"){
     body.style.backgroundColor="#283845";
     body.style.color="white";
     nav.style.backgroundColor="#283845";
+
+   
     // skill.style.color="black";
     for(let i=0;i<skill.length;i++)
     {
@@ -90,6 +95,7 @@ function darkMode(){
     {
      contentColor[i].style.color="white"
     }
+
     
   }else{
     body.style.backgroundColor="white";
@@ -121,4 +127,5 @@ function darkMode(){
     
   } 
 }
+
 
