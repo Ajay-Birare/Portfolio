@@ -151,21 +151,19 @@ a {
 } */
 .content .img {
   height: 450px;
-  overflow: hidden;
-  /* border: 2px solid black; */
+  /* width: 450px; */
+  /* overflow: hidden; */
   border-radius: 100%;
 }
 .content img {
-  height: 450px;
+  height: 500px;
   max-width: 100%;
-  /* border: 2px solid black; */
   border-radius: 100%;
   background-color: #1db655;
   transition: all 0.5s;
-  /* border-radius: 42% 58% 56% 44% / 17% 34% 66% 83%; */
 }
 .content img:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 .content a h2:hover {
   background-color: rgb(65, 232, 126);
