@@ -134,13 +134,14 @@
 
   .content {
     flex-direction: column;
-    gap: 20px;
+    /* gap: 20px; */
   }
 
   .content img {
     height: 250px;
   }
   .about {
+    margin-top: -25%;
     max-width: 90%;
     text-align: center;
   }
